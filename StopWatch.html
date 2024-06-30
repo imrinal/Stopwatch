@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/x-icon" href="icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="heading">
+      <div><span style="color: rgba(71, 68, 255, 0.721); font-family: 'Playwrite US Modern', sans-serif;">Gt </span>GiggleTime</div>
+    </div>
+  </header>
+
+  <div class="Container">
+    <div class="stopwatch">
+      <span id="clock">00:00:00:000</span>
+    </div><br>
+  
+    <div class="displaybuttons">
+      <button id="startPause" onclick="startPause()">Start</button>
+      <button id="lap" onclick="lap()">Lap</button>
+      <button id="clearLaps" onclick="clearLaps()">Clear Laps</button>
+      <button id="reset" onclick="reset()">Reset</button>
+    </div>
+  </div>
+
+  <div class="laps-container">
+    <ul id="laps"></ul>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
