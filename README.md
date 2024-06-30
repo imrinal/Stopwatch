@@ -43,4 +43,4 @@ stopwatch/
 
 ## Sample UI
 
-![Stopwatch UI](stopwatch-ui.png)
+![Stopwatch UI](sample.png)
